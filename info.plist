@@ -312,7 +312,7 @@ echo "${now} ${1}" &gt;&gt; $file</string>
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>%Y-%m-%dT%H:%M:%S</string>
+				<string>%Y-%m-%d %H:%M:%S</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -330,10 +330,8 @@ echo "${now} ${1}" &gt;&gt; $file</string>
 			<string>date_format</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alexchantastic/alfred-note-workflow</string>
 </dict>
